@@ -1,0 +1,7 @@
+role 'Europe Manager'
+	modelPermission: read
+
+	tablePermission DimRegion = [region_id] = "eu"
+
+	annotation PBI_Id = 0a8aef48b0a042f78dd053cb783619f8
+
